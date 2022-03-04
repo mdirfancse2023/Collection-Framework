@@ -8,9 +8,9 @@ public class set {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		Set<Integer> ss = new HashSet<>();
-//		Set<Integer> ss = new LinkedHashSet<>();
-		Set<Integer> ss = new TreeSet<>();
+//		Set<Integer> ss = new HashSet<>(); Random Order uses Hashing // Unordered Set in C++
+//		Set<Integer> ss = new LinkedHashSet<>(); Order maintained uses LinkedList
+		Set<Integer> ss = new TreeSet<>(); // According to max or min uses tree //Ordered Set in C++
 		ss.add(23);
 		
 		ss.add(23);
